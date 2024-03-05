@@ -7,14 +7,17 @@ Learn about Frontend, Backend, Databases, HTTP/HTTPS, REST APIs, and more. Build
 - **Week 1**: 
   - Introduction to web development concepts
   - Overview of HTML and CSS basics
+  - [https://www.youtube.com/watch?v=HD13eq_Pmp8](url)
+    
 - **Week 2**: 
   - Dive deeper into HTML and CSS
   - Introduction to version control using Git and GitHub so you can easily store and deploy your work
+  - [https://www.youtube.com/watch?v=wRNinF7YQqQ](url)
 
 ## Week 3-4: Frontend Development with React.js
 - **Week 3**: 
-  - Introduction to React.js and its core concepts
-  - Building basic React components
+  - Introduction to JavaScript
+  - [https://www.youtube.com/watch?v=W6NZfCO5SIk](url)
 - **Week 4**: 
   - State management in React
   - React Router for handling navigation
