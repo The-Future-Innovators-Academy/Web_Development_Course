@@ -1,6 +1,8 @@
+# Number Guessing Game
+
 Live Link: https://number-guessing-fia.vercel.app/
 
-# Number Guessing Game
+
 
 ## HTML Structure
 
