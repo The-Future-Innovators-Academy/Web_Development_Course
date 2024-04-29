@@ -178,7 +178,7 @@ section {
 
 .card {
     width: 30%;
-    height: 200px;
+    min-height: 200px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -191,4 +191,15 @@ section {
 
 .card p {
     margin-bottom: 0;
+}
+
+@media (max-width: 952px) {
+    .container {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 90%;
+    }
 }
