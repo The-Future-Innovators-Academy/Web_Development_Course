@@ -10,6 +10,8 @@ form.addEventListener("submit", function (event) {
   console.log("Name:", name);
   console.log("Email:", email);
   console.log("Message:", message);
+
+  form.reset();
 });
 
 // After writing this code above, check Console in Developer Tools in Google Chrome: (Control + Shift + J) -> Click Console Tab -> Check Output
