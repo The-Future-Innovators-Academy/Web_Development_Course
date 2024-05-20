@@ -7,9 +7,29 @@ form.addEventListener("submit", function (event) {
   const email = document.getElementById("email").value;
   const message = document.getElementById("message").value;
 
-  console.log("Name:", name);
-  console.log("Email:", email);
-  console.log("Message:", message);
+  const myHeaders = new Headers();
+  myHeaders.append("Content-Type", "application/json");
+
+  const raw = JSON.stringify({
+    name: name,
+    email: email,
+    message: message,
+  });
+
+  const requestOptions = {
+    method: "POST",
+    headers: myHeaders,
+    body: raw,
+    redirect: "follow",
+  };
+
+  fetch(
+    "https://fia-api-temp-monorepo.onrender.com/email/green-team",
+    requestOptions
+  )
+    .then((response) => response.text())
+    .then((result) => console.log(result))
+    .catch((error) => console.error(error));
 
   form.reset();
 });
